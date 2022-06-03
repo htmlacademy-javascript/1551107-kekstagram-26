@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Григорий Плугин](https://up.htmlacademy.ru/javascript/26/user/1551107).
-* Наставник: [Павел Лукин] (https://htmlacademy.ru/profile/id1313529).
+* Наставник: [Павел Лукин](https://htmlacademy.ru/profile/id1313529).
 
 ---
 
