@@ -3,15 +3,20 @@ function getRandomNumber(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
   if (min >= max) {
-    min = 0;
-    max = 0;
+    [min, max] = [max, min];
+  }
+  if (min < 0 || max < 0) {
+    throw Error('Ошибка поиска');
   }
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 const checkStringLength = (string, maxLength) => {
-  if(string > maxLength) {
-    return false;
+  if(string.maxLength <= maxLength) {
+    return true;
   }
-  return true;
+  return false;
 };
+
+getRandomNumber();
+checkStringLength();
